@@ -1,0 +1,63 @@
+# PhpStorm project files
+.idea/
+
+# NetBeans project files
+nbproject/
+
+# Zend Studio for Eclipse project files
+.buildpath
+.project
+.settings/
+
+# Windows thumbnail cache
+Thumbs.db
+
+# Composer vendor dir
+/vendor/
+
+# Composer itself is not needed
+composer.phar
+/composer.lock 
+
+# Mac DS_Store Files
+.DS_Store
+
+# PHPUnit itself is not needed
+phpunit.phar
+# Local PHPUnit config
+/phpunit.xml
+/phpunit.xml.dist
+
+# Test outputs
+/tests/_output/*
+/tests/_support/_generated/
+/tests/_data/*  
+/.phpunit.result.cache 
+
+# Vagrant folder
+/.vagrant/
+
+# Yii runtime and assets
+/runtime/      
+/web/assets/
+
+# Environment files
+.env           
+/.env.local
+/.env.*.local
+
+# Logs
+*.log         
+
+# Coverage reports
+/coverage/    
+
+# Node/npm (if using frontend build tools like gulp/webpack)
+/node_modules/  
+/yarn.lock
+/package-lock.json
+
+# IDE/editor backups
+*.swp
+*~
+*.bak
