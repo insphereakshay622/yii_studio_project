@@ -77,9 +77,9 @@ class SiteController extends Controller
         return $this->render('feature');
     }
 
-    // public function actionError(){
-    //     return $this->render('error');
-    // }
+    public function actionError(){
+        return $this->render('error');
+    }
 
 
 

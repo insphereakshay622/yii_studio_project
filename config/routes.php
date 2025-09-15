@@ -9,6 +9,7 @@ return[
     'team'=>'site/team',
     'testimonial'=>'site/testimonial',
     'feature'=>'site/feature',
+    'error'=>'site/error',
 
     // admin routes
     'admin'=>'admin/default/index',
